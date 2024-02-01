@@ -33,6 +33,7 @@ func createDefaultConfig() component.Config {
 		RetryConfig:     configretry.NewDefaultBackOffConfig(),
 		QueueConfig:     exporterhelper.NewDefaultQueueSettings(),
 		MaxSendSize:     1000000000,
+		MaxReceiveSize:  1000000000,
 		GRPCClientSettings: configgrpc.GRPCClientSettings{
 			Headers: map[string]configopaque.String{},
 			// Default to gzip compression
