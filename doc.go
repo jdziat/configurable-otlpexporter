@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package otlpexporter exports data by using the OTLP format to a gPRC endpoint.
-package otlpexporter // import "github.com/jdziat/configurable-otlpexporter"
+package configurableotlpexporter // import "github.com/jdziat/configurableotlpexporter"

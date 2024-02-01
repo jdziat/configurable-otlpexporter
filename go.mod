@@ -1,4 +1,4 @@
-module github.com/jdziat/configurable-otlpexporter
+module github.com/jdziat/configurableotlpexporter
 
 go 1.21.2
 

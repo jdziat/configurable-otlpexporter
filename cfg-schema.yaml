@@ -120,6 +120,14 @@ fields:
     kind: int64
   - name: permit_without_stream
     kind: bool
+- name: max_send_size
+  kind: int
+  doc: |
+    allows you to override the max send size
+- name: max_receive_size
+  kind: int
+  doc: |
+    allows you to override the max receive size
 - name: read_buffer_size
   kind: int
   doc: |

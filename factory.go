@@ -1,12 +1,11 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package otlpexporter // import "github.com/jdziat/configurable-otlpexporter"
+package configurableotlpexporter // import "github.com/jdziat/configurableotlpexporter"
 
 import (
 	"context"
-	"github.com/jdziat/configurable-otlpexporter/internal/metadata"
-
+	"github.com/jdziat/configurableotlpexporter/internal/metadata"
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/config/configcompression"
 	"go.opentelemetry.io/collector/config/configgrpc"
